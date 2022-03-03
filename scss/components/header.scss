@@ -1,0 +1,45 @@
+// Header
+
+header {
+    nav {
+        background-color: $bgOpacity;
+        div {
+            .logoContainer{
+                background-color: $colorSecundario;
+                border-radius: 100%;
+                .imgLogo {
+                    margin: 0% auto;
+                    width: 100%;
+                    a {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            button {
+                span{
+                    .barsMenu{
+                        width: 100%;
+                    }
+                }
+            }
+            .seccionesContainer {
+                margin: 0% 10%;
+                a {
+                    color: $colorSecundario;
+                    font-family: $fontLogo;
+                    text-align: center;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .carrito {
+            margin-right: 2%;
+            
+            img {
+                width: 75%;
+            }
+        }
+    }
+}

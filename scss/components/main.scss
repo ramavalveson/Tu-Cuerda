@@ -1,0 +1,75 @@
+// Main
+
+h1 {
+    font-size: 5rem;
+    color: $colorSecundario;
+    font-family: $fontLogo;
+    margin: 3% 0% 2% 0%;
+    text-align: center;
+}
+
+.gridGuitarContainer {
+    width: 75%;
+    margin: 0% auto 10% auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: 
+    'electrica acustica-uno acustica-dos'
+    'electrica criolla criolla';
+
+    .electrica {
+        grid-area: electrica;
+    }
+    .acusticaUno {
+        grid-area: acustica-uno;
+    }
+    .criolla {
+        grid-area: criolla;
+    }
+    .acusticaDos {
+        grid-area: acustica-dos;
+    }
+    .fotoCollage {
+        border: 1rem solid $colorSecundario;
+        box-shadow: 1.2rem 1.2rem 1rem $colorPrincipal;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.sectionContainer {
+    width: 90%;
+    margin: 0% auto 5% auto;
+    h2 {
+        font-size: 3rem;
+        font-family: $fontLogo;
+        text-align: center;
+        color: $colorSecundario;
+        margin-bottom: 5%;
+    }
+    .gridSectionGuitar {
+        .filaProductos {
+            .colProductos {
+                margin-bottom: 5%;
+                .producto {
+                    
+                }
+            }
+        }
+        .cambiarSeccion {
+            position: sticky;
+            bottom: 0;
+            .tipoSeccion {
+                &:first-child {
+                    margin-right: 5%;
+                }
+                a {
+                    color: $colorSecundario;
+                    font-family: $fontLogo;
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+// Footer
+
+footer {
+    background-color: $bgOpacity;
+    padding: 2%;
+    .gridContainer {
+        width: 90%;
+        margin: 0% auto;
+        color: $colorSecundario;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 3rem;
+        grid-template-areas: 
+        'seguinos contacto contacto nosotros nosotros nosotros'
+        'ig mail mail textoNosotros textoNosotros textoNosotros'
+        'face whatsapp whatsapp textoNosotros textoNosotros textoNosotros'
+        'tw ubicacion ubicacion textoNosotros textoNosotros textoNosotros';
+        
+        .seguinos {
+            grid-area: seguinos;
+        }
+        
+        .contacto {
+            grid-area: contacto;
+        }
+        
+        .nosotros {
+            grid-area: nosotros;
+        }
+        
+        .ig {
+            grid-area: ig;
+        }
+        
+        .mail {
+            grid-area: mail;
+        }
+        
+        .textoNosotros {
+            grid-area: textoNosotros;
+        }
+        
+        .face {
+            grid-area: face;
+        }
+        
+        .whatsapp {
+            grid-area: whatsapp;
+        }
+        
+        .tw {
+            grid-area: tw;
+        }
+        
+        .ubicacion {
+            grid-area: ubicacion;
+        }
+
+        .titulo {
+            font-size: 1.5rem;
+        }
+    
+        .textContacto {
+            margin-left: 4%;
+        }
+    }
+}
+
+

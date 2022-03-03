@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header nav {
+  background-color: rgba(39, 30, 30, 0.808);
+}
+header nav div .logoContainer {
+  background-color: #fff;
+  border-radius: 100%;
+}
+header nav div .logoContainer .imgLogo {
+  margin: 0% auto;
+  width: 100%;
+}
+header nav div .logoContainer .imgLogo a img {
+  width: 100%;
+}
+header nav div button span .barsMenu {
+  width: 100%;
+}
+header nav div .seccionesContainer {
+  margin: 0% 10%;
+}
+header nav div .seccionesContainer a {
+  color: #fff;
+  font-family: "Monoton", cursive;
+  text-align: center;
+  font-size: 1.5rem;
+}
+header nav .carrito {
+  margin-right: 2%;
+}
+header nav .carrito img {
+  width: 75%;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #fff;
+  font-family: "Monoton", cursive;
+  margin: 3% 0% 2% 0%;
+  text-align: center;
+}
+
+.gridGuitarContainer {
+  width: 75%;
+  margin: 0% auto 10% auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-areas: "electrica acustica-uno acustica-dos" "electrica criolla criolla";
+}
+.gridGuitarContainer .electrica {
+  grid-area: electrica;
+}
+.gridGuitarContainer .acusticaUno {
+  grid-area: acustica-uno;
+}
+.gridGuitarContainer .criolla {
+  grid-area: criolla;
+}
+.gridGuitarContainer .acusticaDos {
+  grid-area: acustica-dos;
+}
+.gridGuitarContainer .fotoCollage {
+  border: 1rem solid #fff;
+  box-shadow: 1.2rem 1.2rem 1rem #271e1e;
+}
+.gridGuitarContainer .fotoCollage img {
+  width: 100%;
+}
+
+.sectionContainer {
+  width: 90%;
+  margin: 0% auto 5% auto;
+}
+.sectionContainer h2 {
+  font-size: 3rem;
+  font-family: "Monoton", cursive;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 5%;
+}
+.sectionContainer .gridSectionGuitar .filaProductos .colProductos {
+  margin-bottom: 5%;
+}
+.sectionContainer .gridSectionGuitar .cambiarSeccion {
+  position: sticky;
+  bottom: 0;
+}
+.sectionContainer .gridSectionGuitar .cambiarSeccion .tipoSeccion:first-child {
+  margin-right: 5%;
+}
+.sectionContainer .gridSectionGuitar .cambiarSeccion .tipoSeccion a {
+  color: #fff;
+  font-family: "Monoton", cursive;
+  font-size: 1.2rem;
+}
+
+footer {
+  background-color: rgba(39, 30, 30, 0.808);
+  padding: 2%;
+}
+footer .gridContainer {
+  width: 90%;
+  margin: 0% auto;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+  grid-template-areas: "seguinos contacto contacto nosotros nosotros nosotros" "ig mail mail textoNosotros textoNosotros textoNosotros" "face whatsapp whatsapp textoNosotros textoNosotros textoNosotros" "tw ubicacion ubicacion textoNosotros textoNosotros textoNosotros";
+}
+footer .gridContainer .seguinos {
+  grid-area: seguinos;
+}
+footer .gridContainer .contacto {
+  grid-area: contacto;
+}
+footer .gridContainer .nosotros {
+  grid-area: nosotros;
+}
+footer .gridContainer .ig {
+  grid-area: ig;
+}
+footer .gridContainer .mail {
+  grid-area: mail;
+}
+footer .gridContainer .textoNosotros {
+  grid-area: textoNosotros;
+}
+footer .gridContainer .face {
+  grid-area: face;
+}
+footer .gridContainer .whatsapp {
+  grid-area: whatsapp;
+}
+footer .gridContainer .tw {
+  grid-area: tw;
+}
+footer .gridContainer .ubicacion {
+  grid-area: ubicacion;
+}
+footer .gridContainer .titulo {
+  font-size: 1.5rem;
+}
+footer .gridContainer .textContacto {
+  margin-left: 4%;
+}
+
+body {
+  background-image: url("../multimedia/imagenes/background.jpg");
+  background-repeat: repeat-y;
+}
+body a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
