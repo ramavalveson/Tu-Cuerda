@@ -61,13 +61,20 @@ h1 {
             position: sticky;
             bottom: 0;
             .tipoSeccion {
+                background-color: $bgOpacity;
+                padding: 0.5rem;
                 &:first-child {
                     margin-right: 5%;
                 }
+                &:hover {
+                    transform: translateY(-0.5rem) scale(110%);
+                    transition: all 0.8s;
+                }
                 a {
+                    display: block;
                     color: $colorSecundario;
                     font-family: $fontLogo;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                 }
             }
         }

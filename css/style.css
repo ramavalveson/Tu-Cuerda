@@ -90,13 +90,22 @@ h1 {
   position: sticky;
   bottom: 0;
 }
+.sectionContainer .gridSectionGuitar .cambiarSeccion .tipoSeccion {
+  background-color: rgba(39, 30, 30, 0.808);
+  padding: 0.5rem;
+}
 .sectionContainer .gridSectionGuitar .cambiarSeccion .tipoSeccion:first-child {
   margin-right: 5%;
 }
+.sectionContainer .gridSectionGuitar .cambiarSeccion .tipoSeccion:hover {
+  transform: translateY(-0.5rem) scale(110%);
+  transition: all 0.8s;
+}
 .sectionContainer .gridSectionGuitar .cambiarSeccion .tipoSeccion a {
+  display: block;
   color: #fff;
   font-family: "Monoton", cursive;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 footer {
@@ -126,6 +135,7 @@ footer .gridContainer .ig {
 }
 footer .gridContainer .mail {
   grid-area: mail;
+  width: 50%;
 }
 footer .gridContainer .textoNosotros {
   grid-area: textoNosotros;
@@ -141,6 +151,7 @@ footer .gridContainer .tw {
 }
 footer .gridContainer .ubicacion {
   grid-area: ubicacion;
+  margin-left: 3%;
 }
 footer .gridContainer .titulo {
   font-size: 1.5rem;
