@@ -63,6 +63,7 @@ h1 {
             .tipoSeccion {
                 background-color: $bgOpacity;
                 padding: 0.5rem;
+                z-index: 5;
                 &:first-child {
                     margin-right: 5%;
                 }

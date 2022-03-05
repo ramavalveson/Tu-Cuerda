@@ -31,7 +31,10 @@ header nav div .seccionesContainer a {
   font-size: 1.5rem;
 }
 header nav .carrito {
-  margin-right: 2%;
+  position: fixed;
+  top: 5rem;
+  right: 0;
+  z-index: 10;
 }
 header nav .carrito img {
   width: 75%;
@@ -93,6 +96,7 @@ h1 {
 .sectionContainer .gridSectionGuitar .cambiarSeccion .tipoSeccion {
   background-color: rgba(39, 30, 30, 0.808);
   padding: 0.5rem;
+  z-index: 5;
 }
 .sectionContainer .gridSectionGuitar .cambiarSeccion .tipoSeccion:first-child {
   margin-right: 5%;

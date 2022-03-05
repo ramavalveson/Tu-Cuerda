@@ -35,8 +35,10 @@ header {
             }
         }
         .carrito {
-            margin-right: 2%;
-            
+            position: fixed;
+            top: 5rem;
+            right: 0;
+            z-index: 10;
             img {
                 width: 75%;
             }
